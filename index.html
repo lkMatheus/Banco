@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="script.js"></script>
+    
+    
+</head>
+<body>
+
+    <div class="inputbox">
+        <h3>Criar Conta</h3>
+        <input type="text" id="tipoconta" placeholder="Tipo conta" ></input><br>
+        <input type="text" id="nomeusuario" placeholder="Nome do usuário"></input><br>
+        <input type="number" min="0" id="numconta" placeholder="Número da conta"></input><br>
+        <button id="cadastrar">Cadastrar</button>
+        <h3>Sacar</h3>
+        <input type="number" min="0" id="ncontasaque" placeholder="Digite o Numero da conta a sacar"><br>
+        <input type="number" min="0" id="valorsaque" placeholder="Valor do saque"></input><br>
+        <button id="sacar">Sacar</button>
+        <h3>Depositar</h3>
+        <input type="number" min="0" id="ncontadeposito" placeholder="Digite o Numero da conta a ser depositado"></input><br>
+        <input type="number" min="0" id="valordeposito" placeholder="Valor do deposito"></input><br>
+        <button id="depositar">Depositar</button>
+        <h3>Transferir</h3>
+        <input type="number" min="0" id="ncontatransf" placeholder="Numero da sua conta"></input><br>
+        <input type="number" min="0" id="ncontatransf2" placeholder="Numero da conta destino"></input><br>
+        <input type="number" min="0" id="valortransf" placeholder="Valor a ser transferido"></input><br>
+        <button id ="transferencia">Transferir</button>
+        <h3>Extrato</h3>
+        <input type="number" min="0" id="ncontaextrato" placeholder="Digite o Numero da conta para retirar extrato"></input><br>
+        <button id="extrato">Imprimir</button>
+        <table>
+            <thead>
+            <tr>
+                <th>Data</th>
+                <th>Tipo</th>
+                <th>Valor</th>
+            </tr>
+            </thead>
+            <tbody id="impressao">
+            </tbody>
+        </table>
+    </div>
+
+    <div class="btns">
+        
+
+        
+    </div>
+    
+    
+</body>
+</html>
